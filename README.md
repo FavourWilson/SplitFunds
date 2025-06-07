@@ -2,7 +2,7 @@
 
 A decentralized application (DApp) that allows users to split ETH payments across multiple recipients in one secure transaction using a smart contract on the Ethereum blockchain. Built with React on the frontend and Solidity for the smart contract.
 
-**🚀 Features**
+## 🚀 Features
 - ✅ Split ETH between multiple recipients with specified amounts
 
 - 📜 View a complete history of all payments sent via the smart contract
@@ -11,7 +11,7 @@ A decentralized application (DApp) that allows users to split ETH payments acros
 
 - ⚡ Simple, clean, and responsive React UI
 
-**🧠 How It Works**
+## 🧠 How It Works
 1. Connect MetaMask to the DApp
 
 2. Enter recipient wallet addresses and corresponding amounts in ETH
@@ -22,7 +22,7 @@ A decentralized application (DApp) that allows users to split ETH payments acros
 
 All transactions are recorded on-chain with details of the sender, recipients, amounts, and timestamp.
 
-**🛠️ Tech Stack**
+## 🛠️ Tech Stack
 | Layer      | Technology         |
 | ---------- | ------------------ |
 | Frontend   | React + TypeScript |
@@ -31,7 +31,7 @@ All transactions are recorded on-chain with details of the sender, recipients, a
 | Web3       | ethers.js (v6+)    |
 | Wallet     | MetaMask           |
 
-**📦 Smart Contract**
+## 📦 Smart Contract
 The core logic lives in the SplitPayment.sol contract, which:
 
 - Takes in multiple recipient addresses and ETH amounts
@@ -49,7 +49,7 @@ The core logic lives in the SplitPayment.sol contract, which:
 
 
 
-**🖥️ Frontend**
+## 🖥️ Frontend
 The frontend is built using React with TypeScript and uses ethers.js to interact with the smart contract.
 
 Key Functionalities:
@@ -64,7 +64,7 @@ Uses MetaMask to sign and send transactions
 📁 Entry File: SplitPaymentApp.tsx
 📁 Contract ABI: SplitPaymentABI.ts
 
-**🧪 Running Locally**
+## 🧪 Running Locally
 Prerequisites
 Node.js v18+
 
